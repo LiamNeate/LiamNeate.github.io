@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Importing icons to use for social links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Importing my CSS sheet I made -->
+<link rel="stylesheet" href="CSS\CSS Activities.css">
+
+<!-- Navigation -->
+<div class="navbar">
+	<div class="dropdown">
+		<button class="dropbtn"><i class="fa fa-bars"></i></button>
+		<div class="dropdown-content">
+			<a href="Webinar.html">Webinars</a>
+			<a href="Work.html">Work</a>
+			<a href="Devsoc.html">Devsoc</a>
+			<a href="Home.html">Homepage</a>
+		</div>
+	</div>
+</div>
+
+<!-- Rest of webpage -->
+<title>Devsoc</title>
+<link rel="header" href="header.html">
+<body id="main">
+<p id='title'>Devsoc</p>
+<div id="container">
+	<div>
+		<br>
+		<p id='p1'>Devsoc (which stand for Developers Scoiety) is a society at University that is mainly about coding. 
+		It is a very active society with loads of activites happening most of the time, as well as fun challenges they have. 
+		Because of Covid, I have not had a chance to go to an in person meeting, but I was able to participate in their Crypto Challenge!
+		<br><br>For the Crypto Challenge, the Devsoc homepage had been hacked and I had to find the key to get the website back (Hackers logo 
+		shown on middle picture). It started simply by looking through the source code of the website to find clues, which told you
+		to go to their instagram page. From there, there was a secret message in one of their posts, which turned out to be a Ceasar
+		cipher. Once that was decryted, it gave a very vague hint saying 'An alliance between three, forged in secret in the heart of an 
+		empire, lost but not forgotten this was the first of many, the beginning of a new age uncover their names to find your next stage'.
+		After some research, I found this was refering to the First Triumvate, which didn't really give me much to go on, so I decide to 
+		examine the post further. I noticed it had a hashtag in it, which was also used on a similar page called 'incognito_caesar' and
+		since Caeser was part of the First Triumvate, I kne this was the right path. On his page, was another clue whih told me to go
+		and check their github, which was linked in their instagram bio. Once there, I could see that there was a file which this account
+		had tried to hide a code in an image. I downloaded the image, and looked through the source code, where  I found password 1 of 3.<br><br>
+		Next, I went back to the original post that got me to that instagram to see if there was any more clues. I found there was
+		another page that had that hashtag, called 'pompeyrulz' which was obviously related. There was another code in one of their
+		posts, along with a reference to a video, where they talked about a certain type of cipher. Using that cipher, I decoded the
+		message to find password 2 of 3 <br><br>For the final pass, I looked through the rest of their posts, and found that they had posted
+		about a twitter account called 'CrassusTheBot', and since Crassus was part of the First Triumvate, I checkd it out. Once there, I 
+		found out that this was a bot that responded to specific tweet hashtags. After a lot of trial and error, it finally gave me a code,
+		which was coded by a fernet cipher (I found this out as they referenced fernet a lot in their posts). Once I combined the code they
+		had given me, with the code they had in the header, I finally got password 3 of 3, and submitted my result. The images below, show 
+		one of the ciphers, the hacked logo, and a bit of my workings. Their website can be found <a href="https://devsoc.co.uk/" class='link'>here</a>.</p>
+		<br>
+	</div>
+	<div>
+		<img src='CSS/Images/Devsoc.png' class='devimage' alt='devsoc'>
+	</div>
+</div>
+<br>
+<!-- Creating the bottom navigation bar -->
+<div class='border'>
+	<div class="card">
+		<img src="CSS/Images/Me.jpg" alt="Me" style="width:100%">
+		<h1>Liam Neate</h1>
+		<p>Nottingham Trent University</p>
+		<a href="https://twitter.com/liam_neate" class='socials'><i class="fa fa-twitter"></i></a>
+		<a href="https://github.com/LiamNeate" class='socials'><i class="fa fa-github"></i></a>
+		<p><a href="mailto:liam.neate@outlook.com"><button class='contact'>Contact</button></a></p>
+	</div>
+	<br><br>
+	<div class="bottomnav">
+		<a href="Webinar.html">Webinars</a>
+		<a href="Work.html">Work</a>
+		<a href="Devsoc.html">Devsoc</a>
+		<a href="Home.html">Homepage</a>
+	</div>
+</div>
+</body>
+</html>

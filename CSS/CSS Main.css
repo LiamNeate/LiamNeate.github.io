@@ -1,0 +1,317 @@
+/* Importing 2 google fonts to use for the website*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+
+.text{
+	font-size: 20px;
+	width:90%;
+	background-color:#e0e0e0;
+	margin-left: auto;
+	margin-right: auto;
+	padding:10px;
+}
+
+a{
+	font-weight:bold
+}
+
+#title {
+  color: white;
+  width:100%;
+  font-family: "Allerta";
+  font-size:7vw;
+  font-weight:bold;
+  text-align: center;
+margin: 0;
+}
+
+#name{
+	color: white;
+	width:100%;
+	font-family: "Allerta";
+	font-size:2vw;
+	text-align: center;
+	margin: 0;
+}
+
+#container{
+	width:100%;
+	display:flex;
+}
+	
+.about{
+	width:75%;
+}
+
+.aboutsub{
+	width:300%;
+	margin-left: 2.2%;
+	margin-right: auto;
+}
+
+
+.cdp{
+	text-align:center;
+	width:21%;
+}
+.work{
+	font-size: 30px;
+	width:50%;
+	background-color:#e0e0e0;
+	margin-left: auto;
+	margin-right: auto;
+	padding:10px;
+}
+	
+#main{
+	background-image: url('Images/Back.png');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.linkp{
+	color:white;
+}
+
+.linkp:hover{
+	color:grey;
+}
+/* Setting up the top navigation bar */
+.navbar a {
+  float:right;
+  font-size:20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+	overflow: hidden;
+	width:100px;
+}
+
+.dropdown .dropbtn {
+  font-size: 50px;  
+  border: none;
+  outline: none;
+  color: #808080;
+  background-color: inherit;
+  margin: 0;
+}
+.dropbtn i{
+	font-size:100px;
+}
+/* Changing the color of the text if it is being hoovered on */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: white;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #141414;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #b8b9ba;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.info{
+	font-family: "Montserrat";
+	font-size:3vw;
+	color: black;	
+	width:98%;
+	float:left;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footerplace{
+	opacity:0;
+	height:5vw;
+}
+/* Making the div with information flexible so it can change with window size */
+.infobar {
+  display: flex;
+}
+/* Setting up the bottom navigation bar */
+.bottomnav{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	padding: 1.5vw 0vw;
+}
+
+.bottomnav a{
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	padding:1.5vw 6vw;
+}
+
+.bottomnav a:hover{
+	background-color:#383838;
+}
+
+.card {
+	position:relative;
+	border:100px;
+	background-color:#242424;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.contact{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.socials{
+	text-decoration: none;
+	font-size: 35px;
+	color: black;
+}
+
+.socials:hover{
+	color:white;
+}
+
+.border{
+	width:100%;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.imgabout{
+	float: right;
+	padding-left:50px;
+	padding-right:100px;
+	padding-top:20px;
+	width:73%;
+}
+/* Some CSS that will change different elements depending on the size of the browser that it is opne in. */
+/* The first one is for tablet sizes. */
+@media (max-width: 1050px) {
+	#container{
+		flex-direction: column;
+		margin-left: auto;
+	  margin-right: auto;
+	}
+  .infobar {   
+    flex-direction: column;
+  }
+  .about{
+	  width:100%
+  }
+  .cdp{
+	 width:100%
+  }
+  .info{
+	  color:white;
+	  text-decoration: none;
+	  float:none;
+	  font-size: 5vw;
+	  width: 100%
+  }
+  hr{
+	  height: 1px;
+  }
+  #title{
+	  font-size: 15vw;
+  }
+  .bottomnav a{
+	  font-size:10px;
+  }
+  #name{
+	  font-size: 4vw;
+  }
+  .text{
+	  font-size: 3vw;
+  }
+  .border{
+	  float: none;
+	  padding: none;
+	  padding-top: 30px;
+  }
+  .aboutsub{
+	  width:100%;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  .imgabout{
+	  float:none;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding:0;
+  }
+  .dropbtn i{
+	font-size:70px;
+	}
+}
+/* The second one is for phone sizes. */
+@media (max-width: 415px) {
+	#title{
+		font-size: 17vw;
+	}
+	.card {
+		max-width: 200px;
+	}
+	.bottomnav a{
+	  font-size:10px;
+	  padding:7px 10px;
+	}
+	.info{
+	  font-size: 7vw;
+	  }
+	.navbar a {
+		font-size:10px;
+		padding: 7px 8px;
+	}
+	.dropdown-content{
+		min-width: 80px;
+	}
+	.dropbtn i{
+		font-size:40px;
+	}
+	.dropbtn{
+		padding-top: 0px;
+		padding-left: 12px;
+	}
+	.aboutsub{
+		width:100%;
+	}
+	.imgabout{
+		width:80%;
+		padding:0px;
+		padding-bottom:20px;	
+	}
+	.text{
+	  font-size: 4vw;
+	  }
+}
