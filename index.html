@@ -1,87 +1,213 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Importing icons to use for social links -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Importing my CSS sheet I made -->
-<link rel="stylesheet" href="CSS/CSS Main.css">
+	<head>
+		<title>Liam Neate</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<!-- Rest of webpage -->
-<title>Github Website</title>
-<link rel="header" href="header.html">
-<body id="main">
-<p id='name'></p>
-<p id='title'>Liam Neate</p>	
-<!-- Creating a div for the information on my website so it can be side by side -->
-<div id="container">
-	<div class='about'>
-		<p class='info'>About Me</p>
-		<p class='text'>Hi, my name is Liam Neate and I am currently a student at Nottingham Trent University, 
-		where, I am studying Software Engineering. Before that, I was a student at Highcliffe Sixth form, back in my hometown.
-		I was always very passionate about computers and programming, but it wasn't until going to Highcliffe Sixth form that
-		I decided I wanted to study it full time.<br><br>In my spare time, I mainly enjoy playing videogames with my friends.
-		I find this a really nice way to relax, as well as a good motivator for my work, as my goal in life is to develop
-		video games. I also like to use this time to talk to my friends about the work they are doing, and discussing relevant
-		news that has happened.<br><br></p>
-		<div id='container'>
-		<!-- Creating  a div inside so that I can have text and image next to each other -->
-			<div class='aboutsub'>
-				<p class='info'>Work</p>
-				<p class='text'>Before coming to University, I had a job at Curry's PC World in my hometown. I was very passionate about
-				my job and alwasy enjoyed going in. My job there consisted of talking to customers about our products as well as selling to
-				them. It also meant that I had to keep on my toes and stay informed about the latest tech. This further fueled my pasion for
-				technology and how the future will be shapped around them.<br><br> My first job, however, was at Hoburne Retail Park which
-				was a big holiday park in my hometown. There I worked in the arcade, fixing arcade machines, filling up tickets, giving out
-				prizes, cleaning up at the end of the day, etc. From time to time, I also had to help cleaning tables when it was busy.
-				Normally, I would be the only one looking after the arcade during my shift, so it was very lonely and stressful, which
-				eventually caused me to leave and work at PC World.<br><br></p>
-			</div>
-			<div class='aboutpic'>
-				<img class='imgabout' src="CSS/Images/pcWorld.jpg" alt="pcworld">
-				<img class='imgabout' src="CSS/Images/Hoburne.jpg" alt="hoburne">
-			</div>
-		</div>
-	</div>
-	<div class='cdp'>
-		<p class='info'>CDP</p>
-		<p class='text'><a class='linkp' href="Devsoc.html"><i class="fa fa-circle-o"></i></a>  DevSoc - 10 Hours<br><br>
-		<a class='linkp' href="Work.html"><i class="fa fa-circle-o"></i></a>  Part-time job - 10 hours<br><br>
-		<a class='linkp' href="Webinar.html"><i class="fa fa-circle-o"></i></a>  Library webinars - 1 hour<br><br>
-		<p class='info'>Grades</p>
-		<p class='text'>GCSE's (Highcliffe School):<br><br>
-		- Computing: 6<br>
-		- English Language: 5<br>
-		- English Literature: 4<br>
-		- French: 4<br>
-		- Geography: 5<br>
-		- Graphic Products: 7<br>
-		- Mathematics: 7<br>
-		- Science: 6<br><br><br>
-		A-Levels (Highcliffe Sixth from):<br><br>
-		- Art & Design Adv: C<br>
-		- Comp Sci Adv(Python): A<br>
-		- Mathematics: B<br><br></p>
-	</div>
-</div>
-<div class='border'>
-<!-- Creating a card which I found on w3schools, then altered it to be about me -->
-<!-- Putting the card and footer in the same div, so they will always be at the bottom -->
-	<div class="card">
-		<img src="CSS/Images/Me.jpg" alt="Me" style="width:100%">
-		<h1>Liam Neate</h1>
-		<p>Nottingham Trent University</p>
-		<a href="https://twitter.com/liam_neate" class='socials'><i class="fa fa-twitter"></i></a>
-		<a href="https://github.com/LiamNeate" class='socials'><i class="fa fa-github"></i></a>
-		<p><a href="mailto:liam.neate@outlook.com"><button class='contact'>Contact</button></a></p>
-	</div>
-	<br><br>
-	<div class="bottomnav">
-		<a href="Webinar.html">Webinars</a>
-		<a href="Work.html">Work</a>
-		<a href="Devsoc.html">Devsoc</a>
-		<a href="index.html">Homepage</a>
-	</div>
-</div>
-</body>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Liam Neate</strong>.</h1>
+							</header>
+							<p>Second year <strong>BSc (Hons) Software Engineer</strong> Student at Nottingham Trent University. </p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Current programming languages</h2>
+						<p>These are the current program languages I am using mainly.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>Python</h3>
+								<p>I have been studying python since GCSE and has since become my most confident language.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>HTML & Java</h3>
+								<p>I started studying HTML in A-level and have recently started studying Java in university.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>C++</h3>
+								<p>Started learning C++ at University but I have really enjoyed it and have become quite confident in it.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Want to see some examples of these coding languages?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some of my projects.</h2>
+						<p>Here is a list of my projects. All of these are available to view on my GitHub unless otherwise specified.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/LiamNeate/HTML-Website-1st-Year" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="https://github.com/LiamNeate/HTML-Website-1st-Year">HTML "CV" Website</a></h3>
+								<p>HTML website for showing my CV</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/LiamNeate/Python-Adventure-Game" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="https://github.com/LiamNeate/Python-Adventure-Game">Python Text Game</a></h3>
+								<p>Python text based adventure game</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/LiamNeate/C-Project" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="https://github.com/LiamNeate/C-Project">C++ game</a></h3>
+								<p>C++ Blackjack game</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/LiamNeate/abc-universtity-system-proposal" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="https://github.com/LiamNeate/abc-universtity-system-proposal">A System Proposal</a></h3>
+								<p>ABC university system proposal</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3 class="comingSoon"><a href="#">HTML & Java website</a></h3>
+								<p>Being worked on...</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3 class="comingSoon"><a href="#">Upcoming C++ project</a></h3>
+								<p>Being worked on...</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Any questions or want to talk?</p>
+						<a href="mailto:liam.neate@outlook.com" class="button large scrolly">Send me an email</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+<!-- 			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contact me.</h2>
+						<p>Send me and email through here if you would like to get in touch.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+<!-- 							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
